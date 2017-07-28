@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "544951FD4FFAC531D5AA9C155B02A061F95200E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "544951FD4FFAC531D5AA9C155B02A061F95200E0" : 9223372036854775807,
+    "B988733099D5BDAF6853FB2A121A8396C047E9D2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDA003C4-9286-4AF5-9785-B61AD3E3B71E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "544951FD4FFAC531D5AA9C155B02A061F95200E0" : "CustomRefOC\/",
+    "B988733099D5BDAF6853FB2A121A8396C047E9D2" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomRefOC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomRefOC\/CustomRefOC\/CustomRefOC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kthree0830\/CustomRefOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "544951FD4FFAC531D5AA9C155B02A061F95200E0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kthree0830\/KQW.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B988733099D5BDAF6853FB2A121A8396C047E9D2"
+    }
+  ]
+}

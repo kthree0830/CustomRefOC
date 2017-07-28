@@ -6,6 +6,9 @@
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
+
+// 侧拉刷新
+
 #import "KFMViewController.h"
 #import "KFMRef.h"
 @interface KFMViewController ()
@@ -17,13 +20,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor yellowColor];
-    // Do any additional setup after loading the view.
     self.automaticallyAdjustsScrollViewInsets = NO;
     _scrollView.backgroundColor = [UIColor yellowColor];
+    //刷新参照物
     UIView *v = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, _scrollView.bounds.size.height)];
     v.backgroundColor = [UIColor grayColor];
     [_scrollView addSubview:v];
+    
+    
      _scrollView.contentSize = CGSizeMake(1000, 0);
     [_scrollView addSubview:self.ref];
     [_ref addTarget:self action:@selector(loadData) forControlEvents:UIControlEventTouchUpInside];

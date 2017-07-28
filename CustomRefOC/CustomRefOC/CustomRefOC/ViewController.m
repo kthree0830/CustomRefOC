@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "KFMRefresh.h"
 
-#define kHeaderH 200
+//下拉刷新
 
 NSString  * const cellId = @"cellId";
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
