@@ -7,6 +7,10 @@
 // 侧拉
 
 #import <UIKit/UIKit.h>
+
+/**
+ 刷新状态
+ */
 typedef NS_ENUM(NSUInteger,KFMRefreshState)
 {
     KFMRefStateNormal = 0,
